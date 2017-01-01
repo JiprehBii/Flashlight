@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:background="#BABEBABE">
+
+	<ToggleButton
+		android:id="@+id/buttonTorch"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:text="Torch"
+		android:layout_marginTop="100dp"/>
+
+	<Button
+		android:id="@+id/Back"
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:text="Back"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/buttonTorch"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_margin="85dp"/>
+
+	<TextView
+		android:id="@+id/TextV"
+		android:layout_height="wrap_content"
+		android:text="Torch"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:onClick="TxtView"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="0dp"
+		android:textColor="#CDC111"
+		android:textStyle="bold|normal"
+		android:shadowColor="#000000"
+		android:shadowRadius="10"
+		android:padding="45dp"/>
+
+</RelativeLayout>
