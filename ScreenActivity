@@ -1,0 +1,17 @@
+package com.jeffreh.app;
+
+import android.app.*;
+import android.os.*;
+
+public class ScreenActivity extends Activity
+{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.screen);
+	}
+	
+	
+}
